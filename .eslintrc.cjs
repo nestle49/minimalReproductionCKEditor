@@ -2,7 +2,7 @@
  * @type {import('eslint/lib/shared/types').ConfigData}
  */
 module.exports = {
-    extends: ['./.eslintrc-auto-import.json', '@foodsoul/eslint-config/.eslintrc.js'],
+    extends: ['./.eslintrc-auto-import.json'],
     overrides: [
         {
             files: ['cypress/e2e/**/*.{cy,spec}.{js,ts,jsx,tsx}'],
