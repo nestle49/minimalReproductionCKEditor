@@ -1,0 +1,20 @@
+include:
+    - project: 'fs-frontend/deploy/fs-deploy'
+      file: 'nodejs.yml'
+    - project: 'fs-frontend/deploy/fs-deploy'
+      file: 'deploy/njs-static.yml'
+
+#
+# Override default variables
+#
+
+# Переменные среды разработки
+.variables-dev:
+    variables:
+        APP_PORT: 30005
+
+# Переменные продуктовой среды
+.variables-prod:
+    variables:
+        APP_PORT: 30005
+        ENVIRONMENT-PROD-URL: https://foodsoul.pro/pa.admin

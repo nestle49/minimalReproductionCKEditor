@@ -1,0 +1,12 @@
+{
+    "addressesNotFound": "No addresses were found by these criteria",
+    "enterPhoneNumber": "Enter phone number",
+    "filterByPhone": "Filter by phone",
+    "selectLanguage": "Select a language",
+    "downloadSample": "Download a sample",
+    "selectCity": "Select a city",
+    "addresses": "Addresses",
+    "reset": "Reset",
+    "not": "Not",
+    "all": "All"
+}

@@ -1,0 +1,134 @@
+[
+    {
+        "id": "16",
+        "name": "Armenian",
+        "iso639-1": "hy",
+        "published": true
+    },
+    {
+        "id": "1",
+        "name": "Azərbaycan",
+        "iso639-1": "az",
+        "published": true
+    },
+    {
+        "id": "15",
+        "name": "Deutsch",
+        "iso639-1": "de",
+        "published": true
+    },
+    {
+        "id": "12",
+        "name": "Eesti",
+        "iso639-1": "et",
+        "published": true
+    },
+    {
+        "id": "10",
+        "name": "English",
+        "iso639-1": "en",
+        "published": true
+    },
+    {
+        "id": "24",
+        "name": "Español",
+        "iso639-1": "es",
+        "published": true
+    },
+    {
+        "id": "11",
+        "name": "French",
+        "iso639-1": "fr",
+        "published": true
+    },
+    {
+        "id": "17",
+        "name": "Georgian",
+        "iso639-1": "ka",
+        "published": true
+    },
+    {
+        "id": "23",
+        "name": "Greek",
+        "iso639-1": "el",
+        "published": true
+    },
+    {
+        "id": "26",
+        "name": "Indonesian",
+        "iso639-1": "id",
+        "published": true
+    },
+    {
+        "id": "22",
+        "name": "Italiano",
+        "iso639-1": "it",
+        "published": true
+    },
+    {
+        "id": "25",
+        "name": "Lietuvių",
+        "iso639-1": "lt",
+        "published": true
+    },
+    {
+        "id": "18",
+        "name": "O‘zbek",
+        "iso639-1": "uz",
+        "published": true
+    },
+    {
+        "id": "19",
+        "name": "Polski",
+        "iso639-1": "pl",
+        "published": true
+    },
+    {
+        "id": "21",
+        "name": "Português",
+        "iso639-1": "pt",
+        "published": true
+    },
+    {
+        "id": "14",
+        "name": "Românesc",
+        "iso639-1": "ro",
+        "published": true
+    },
+    {
+        "id": "6",
+        "name": "Türkçe",
+        "iso639-1": "tr",
+        "published": true
+    },
+    {
+        "id": "20",
+        "name": "Čeština",
+        "iso639-1": "cs",
+        "published": true
+    },
+    {
+        "id": "4",
+        "name": "Русский",
+        "iso639-1": "ru",
+        "published": true
+    },
+    {
+        "id": "5",
+        "name": "Српски",
+        "iso639-1": "sr",
+        "published": true
+    },
+    {
+        "id": "7",
+        "name": "Український",
+        "iso639-1": "uk",
+        "published": true
+    },
+    {
+        "id": "3",
+        "name": "Қазақ",
+        "iso639-1": "kk",
+        "published": true
+    }
+]

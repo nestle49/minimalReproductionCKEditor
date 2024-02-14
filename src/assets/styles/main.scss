@@ -1,0 +1,138 @@
+@import './base';
+@import './breakpoints';
+@import './transitions';
+@import 'https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700;800&family=Montserrat:wght@400;500;600;800&display=swap';
+
+:root {
+    @each $device, $value in $breakpoints {
+        --fs-breakpoint-#{$device}: #{$value};
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    display: inline-flex;
+}
+
+#app {
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.6;
+    font-size: 15px;
+    /* stylelint-disable-next-line value-keyword-case */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Montserrat, sans-serif;
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.primary-link {
+    color: var(--primary);
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration-color: transparent;
+    }
+}
+
+.secondary-link {
+    color: var(--ui-secondary);
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration-color: transparent;
+    }
+}
+
+.bg {
+    background: var(--background);
+}
+
+.border {
+    border: 1px solid var(--border);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.green {
+    color: var(--green);
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.fill-secondary {
+    fill: var(--ui-secondary);
+}
+
+.fill-text {
+    fill: var(--ui-text-color);
+}
+
+.fill-inactive {
+    fill: var(--inactive);
+}
+
+.flip-vertically {
+    transform: scale(1, -1);
+}
+
+.highlight {
+    position: relative;
+
+    &::after {
+        transition: background 0.5s ease;
+        content: '';
+        position: absolute;
+        inset: 0;
+        display: block;
+        background: var(--ui-secondary);
+        z-index: -1;
+        opacity: 0.2;
+        border-radius: 16px;
+    }
+}
+
+.danger {
+    color: var(--ui-danger);
+}
+
+.text-wrap {
+    white-space: pre-wrap;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}

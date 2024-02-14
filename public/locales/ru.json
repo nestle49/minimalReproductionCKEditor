@@ -1,0 +1,12 @@
+{
+    "addressesNotFound": "По данным критериям не найдено ни одного адреса",
+    "enterPhoneNumber": "Введите номер телефона",
+    "filterByPhone": "Фильтр по телефону",
+    "downloadSample": "Скачать выборку",
+    "selectLanguage": "Выберите язык",
+    "selectCity": "Выберите город",
+    "addresses": "Адреса",
+    "reset": "Сбросить",
+    "not": "Нет",
+    "all": "Все"
+}
