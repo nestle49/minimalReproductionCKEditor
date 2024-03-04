@@ -5,12 +5,7 @@
         class="cursor-pointer"
         @click="change"
     >
-        <SvgIcon
-            name="star"
-            :size="22"
-            class="pe-none ease"
-            :style="{ fill: isActive ? '#ffe37e' : 'var(--ui-secondary)' }"
-        />
+        TEST
     </button>
 </template>
 

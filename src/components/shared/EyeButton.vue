@@ -6,11 +6,7 @@
         :class="{ active }"
         @click="change"
     >
-        <SvgIcon
-            name="eye-on"
-            :size="22"
-            class="pe-none ease"
-        />
+        TEST
     </button>
 </template>
 

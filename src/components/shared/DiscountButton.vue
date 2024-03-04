@@ -6,16 +6,11 @@
         :class="{ active }"
         @click="change"
     >
-        <SvgIcon
-            name="discount"
-            :size="22"
-            class="pe-none ease"
-        />
+        TEST
     </button>
 </template>
 
 <script lang="ts" setup>
-import SvgIcon from '@/components/shared/SvgIcon.vue'
 interface Props {
     active?: boolean
 }

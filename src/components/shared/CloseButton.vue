@@ -4,11 +4,7 @@
         aria-label="close"
         class="close-button position-absolute d-inline-flex justify-content-center align-items-center cursor-pointer"
     >
-        <SvgIcon
-            name="cross"
-            :size="20"
-            class="pe-none"
-        />
+        TEST
     </button>
 </template>
 
